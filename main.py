@@ -49,8 +49,8 @@ class BERTClassifier(nn.Module):
 bertmodel, vocab = get_pytorch_kobert_model()
 
 ## 모델 불러오기
-# model = torch.load('https://github.com/JoYeonghun/Diary/tree/main/model')  # GPU 사용
-# model = torch.load('https://github.com/JoYeonghun/Diary/blob/main/7emotions_model.pt', map_location=torch.device('cpu'))  # CPU 사용
+model = torch.load('https://github.com/JoYeonghun/Diary/blob/main/model/7emotions_model.pt')  # GPU 사용
+# model = torch.load('https://github.com/JoYeonghun/Diary/blob/main/model/7emotions_model.pt', map_location=torch.device('cpu'))  # CPU 사용
 
 # ## 4. 데이터 전처리(토큰화, 정수 인코딩, 패딩)
 # class BERTDataset(Dataset):
