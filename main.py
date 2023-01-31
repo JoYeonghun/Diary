@@ -13,8 +13,8 @@ import numpy as np
 
 st.text('hello Streamlit!')
 
-# ## GPU 설정
-# device = torch.device("cuda:0")  # GPU
+## GPU 설정
+device = torch.device("cuda:0")  # GPU
 
 class BERTClassifier(nn.Module):
     def __init__(self,
