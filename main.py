@@ -14,6 +14,8 @@ import numpy as np
 st.text('hello Streamlit!')
 st.write(os.path.realpath(__file__))
 st.write(os.path.abspath(__file__))
+st.write(os.getcwd())
+st.write(os.path.dirname(os.path.realpath(__file__)) )
 
 ## GPU 설정
 device = torch.device("cuda:0")  # GPU
