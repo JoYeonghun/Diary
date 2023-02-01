@@ -12,7 +12,8 @@ import gluonnlp as nlp
 import numpy as np
 
 st.text('hello Streamlit!')
-st.write(pwd)
+st.write(os.path.realpath(__file__))
+st.write(os.path.abspath(__file__))
 
 ## GPU 설정
 device = torch.device("cuda:0")  # GPU
