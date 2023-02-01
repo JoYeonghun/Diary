@@ -6,3 +6,4 @@ torch
 gluonnlp
 numpy==1.21.6
 pandas
+https://github.com/JoYeonghun/Diary/blob/main/model/7emotions_model.pt
