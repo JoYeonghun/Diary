@@ -6,4 +6,3 @@ torch
 gluonnlp
 numpy==1.21.6
 pandas
-os
