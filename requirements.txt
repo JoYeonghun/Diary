@@ -6,3 +6,4 @@ torch==1.10.1
 gluonnlp
 numpy==1.21.6
 pandas
+pickle
